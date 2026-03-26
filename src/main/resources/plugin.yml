@@ -1,0 +1,16 @@
+name: HartheyContent
+version: '1.0.0'
+main: com.amyq.hartheyContent.HartheyContent
+api-version: '1.21.11'
+load: STARTUP
+authors: [ InitsuIgnis ]
+description: A merchant, A monarch, and a maniac
+website: https://sites.google.com/view/initsuignis/home
+commands:
+  hpl:
+    description: Lists all Harthey plugins
+    usage: /hpl
+    permission: harthey.hpl
+permissions:
+  harthey.hpl:
+    default: true
